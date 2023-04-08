@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thumb {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #565656;
+}
+
+.link:hover {
+    transform: scale(1.05);
+    transition: transform 300ms ease;
+}
+
+.active {
+    composes: link;
+    border-bottom: 3px solid;
+    color: #8b6dec;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: #8b6dec;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #75c3f4;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    transition: transform 300ms ease;
+}
+
+.title {
+    font-size: 26px;
+    margin: 0 20px;
+    text-align: center;
+    color: #565656;
+}
+
+.name {
+    font-weight: 700;
+    color: #323233;
+}

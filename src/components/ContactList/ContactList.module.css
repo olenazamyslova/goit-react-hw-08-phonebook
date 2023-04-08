@@ -1,0 +1,42 @@
+.list {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #565656;
+    background-color: #8b6dec;
+}
+
+.item {
+    display: flex;
+    padding: 6px 20px;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px #565656;
+    background-color: #fff;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.1);
+    transition: transform 300ms ease;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    min-width: 140px;
+    font-weight: 600;
+}
